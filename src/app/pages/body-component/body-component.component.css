@@ -1,0 +1,17 @@
+:host {
+    display: block; 
+    color: #ffffff; 
+    text-align: center; 
+}
+
+/* Estilo original para el enlace */
+.hover-effect {
+    color: #3f51b5; /* Color natural */
+    text-decoration: underline, unset; /* Elimina subrayado si es necesario */
+    transition: color 0.3s ease; /* Suaviza la transición del color */
+}
+
+/* Cambia el color a negro cuando se posa el mouse */
+.hover-effect:hover {
+    color: #79FFA0; /* Color negro al pasar el mouse */
+}
